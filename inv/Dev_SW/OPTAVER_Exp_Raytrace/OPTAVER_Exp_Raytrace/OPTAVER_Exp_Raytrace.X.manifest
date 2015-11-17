@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="OPTAVER_Exp_Raytrace" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{725953bc-ade5-4eb1-9d2b-9fabf52bfc10}" progid="OPTAVER_Exp_Raytrace.StandardAddInServer" threadingModel="Both" name="OPTAVER_Exp_Raytrace.OPTAVER_Exp_Raytrace.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="OPTAVER_Exp_Raytrace.dll" hashalg="SHA1"></file>
+
+</assembly>

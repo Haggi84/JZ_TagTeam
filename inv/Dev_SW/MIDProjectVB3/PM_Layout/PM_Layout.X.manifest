@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="PM_Layout" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{37caa6ae-9257-4385-bafc-ef63a7ce59cc}" progid="PM_Layout.StandardAddInServer" threadingModel="Both" name="PM_Layout.PM_Layout.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="PM_Layout.dll" hashalg="SHA1"></file>
+
+</assembly>

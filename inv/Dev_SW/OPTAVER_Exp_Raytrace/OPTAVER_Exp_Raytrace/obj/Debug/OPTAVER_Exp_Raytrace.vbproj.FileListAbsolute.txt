@@ -1,0 +1,9 @@
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\bin\Debug\OPTAVER_Exp_Raytrace.exe
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\bin\Debug\OPTAVER_Exp_Raytrace.pdb
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\bin\Debug\.xml
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\obj\Debug\OPTAVER_Exp_Raytrace.vbprojResolveAssemblyReference.cache
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\obj\Debug\OPTAVER_Exp_Raytrace.exe
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\obj\Debug\.xml
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\obj\Debug\OPTAVER_Exp_Raytrace.pdb
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\obj\Debug\OPTAVER_Exp_Raytrace.frm_save_path.resources
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_Exp_Raytrace\OPTAVER_Exp_Raytrace\obj\Debug\OPTAVER_Exp_Raytrace.vbproj.GenerateResource.Cache

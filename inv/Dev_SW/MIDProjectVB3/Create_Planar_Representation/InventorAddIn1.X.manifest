@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="InventorAddIn1" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{56f21a51-45fb-49d1-b1f2-954a824e5b40}" progid="InventorAddIn1.StandardAddInServer" threadingModel="Both" name="InventorAddIn1.InventorAddIn1.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="InventorAddIn1.dll" hashalg="SHA1"></file>
+
+</assembly>

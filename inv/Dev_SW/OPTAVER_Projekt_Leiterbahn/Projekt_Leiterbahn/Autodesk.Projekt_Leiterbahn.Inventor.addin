@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 17.0-->
+  <ClassId>{f77778ce-e458-467a-b877-68fd73530401}</ClassId>
+  <ClientId>{f77778ce-e458-467a-b877-68fd73530401}</ClientId>
+  <DisplayName>Projekt_Leiterbahn</DisplayName>
+  <Description>Projekt_Leiterbahn</Description>
+  <Assembly>Projekt_Leiterbahn.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>16..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

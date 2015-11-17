@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Circuit denotion="MID_Temp_Sensor_SMD_1_schalter_ohne_programmier_auto3" ECAD-System="EAGLE-6.2" ulp="eagle2xml_Circuit" path="Y:/USER/Public/Oschmann/MID_Temp_Sensor_SMD_1�_schalter_ohne_programmier_auto3.brd" unitOfLength="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CircuitMID.xsd">
+   <Board b="144.907" h="125.557"/>
+   <PartList>
+      <Part id="+BATT" value="+Batt" dev="SMD5">
+         <Position x="53.055" y="98.3707" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="4.56493" h="6.51893"/>
+            <Pins>
+               <Pin id="1" x="3.19333" y="3.008"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="-BATT" value="" dev="SMD5">
+         <Position x="81.4014" y="98.3707" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="4.56493" h="6.06371"/>
+            <Pins>
+               <Pin id="1" x="3.19333" y="3.008"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="C1" value="100nF" dev="C-EUC0603">
+         <Position x="63.5212" y="60.2277" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="4.74133" h="6.44016"/>
+            <Pins>
+               <Pin id="1" x="2.32833" y="0.6516"/>
+               <Pin id="2" x="2.32833" y="2.3516"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="LED1_9" value="" dev="LG_T679-E1F1-1">
+         <Position x="61.7313" y="18.0279" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.73493" h="7.52885"/>
+            <Pins>
+               <Pin id="A" x="1.5016" y="3.37885"/>
+               <Pin id="C" x="1.5016" y="6.77885"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="LED1_10" value="" dev="LG_T679-E1F1-1">
+         <Position x="73.4959" y="17.0489" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.73493" h="8.53747"/>
+            <Pins>
+               <Pin id="A" x="1.5016" y="4.38747"/>
+               <Pin id="C" x="1.5016" y="7.78747"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="LED1_11" value="" dev="LG_T679-E1F1-1">
+         <Position x="77.3347" y="17.1941" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.73493" h="8.40358"/>
+            <Pins>
+               <Pin id="A" x="1.5016" y="4.25358"/>
+               <Pin id="C" x="1.5016" y="7.65358"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="LED1_12" value="" dev="LG_T679-E1F1-1">
+         <Position x="69.5549" y="17.0592" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.73493" h="8.53747"/>
+            <Pins>
+               <Pin id="A" x="1.5016" y="4.38747"/>
+               <Pin id="C" x="1.5016" y="7.78747"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="LED1_13" value="" dev="LG_T679-E1F1-1">
+         <Position x="65.8265" y="17.0525" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.73493" h="8.53747"/>
+            <Pins>
+               <Pin id="A" x="1.5016" y="4.38747"/>
+               <Pin id="C" x="1.5016" y="7.78747"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="LED1_14" value="" dev="LG_T679-E1F1-1">
+         <Position x="57.9725" y="17.0084" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.73493" h="8.53747"/>
+            <Pins>
+               <Pin id="A" x="1.5016" y="4.38747"/>
+               <Pin id="C" x="1.5016" y="7.78747"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R1" value="0R" dev="R-EU_R1206">
+         <Position x="79.1499" y="57.6737" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="4.9968" h="5.75733"/>
+            <Pins>
+               <Pin id="1" x="3.9204" y="2.83633"/>
+               <Pin id="2" x="1.0764" y="2.83633"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R2" value="75R" dev="R-EU_R0603">
+         <Position x="64.9605" y="34.5578" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.12233" h="4.36208"/>
+            <Pins>
+               <Pin id="1" x="2.54" y="3.71368"/>
+               <Pin id="2" x="2.54" y="2.01368"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R3" value="75R" dev="R-EU_R0603">
+         <Position x="60.7187" y="34.5832" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.12233" h="4.36208"/>
+            <Pins>
+               <Pin id="1" x="2.54" y="3.71368"/>
+               <Pin id="2" x="2.54" y="2.01368"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R4" value="75R" dev="R-EU_R0603">
+         <Position x="57.0103" y="34.5324" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.12233" h="4.36208"/>
+            <Pins>
+               <Pin id="1" x="2.54" y="3.71368"/>
+               <Pin id="2" x="2.54" y="2.01368"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R7" value="75R" dev="R-EU_R0603">
+         <Position x="68.5673" y="34.5324" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.12233" h="4.36208"/>
+            <Pins>
+               <Pin id="1" x="2.54" y="3.71368"/>
+               <Pin id="2" x="2.54" y="2.01368"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R8" value="75R" dev="R-EU_R0603">
+         <Position x="72.5043" y="34.5578" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.12233" h="4.36208"/>
+            <Pins>
+               <Pin id="1" x="2.54" y="3.71368"/>
+               <Pin id="2" x="2.54" y="2.01368"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R9" value="75R" dev="R-EU_R0603">
+         <Position x="76.3651" y="34.5578" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.12233" h="4.36208"/>
+            <Pins>
+               <Pin id="1" x="2.54" y="3.71368"/>
+               <Pin id="2" x="2.54" y="2.01368"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="R10" value="10K" dev="R-EU_R0603">
+         <Position x="62.8862" y="43.0605" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="1.6" h="0.8"/>
+            <Pins>
+               <Pin id="1" x="2.58233" y="0.6484"/>
+               <Pin id="2" x="2.58233" y="2.3484"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="TEMP-SENSOR" value="LM45CIM3" dev="LM45CIM3">
+         <Position x="68.3037" y="62.1695" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="14.2844" h="7.28133"/>
+            <Pins>
+               <Pin id="1" x="12.8214" y="4.69833"/>
+               <Pin id="2" x="10.9214" y="4.69833"/>
+               <Pin id="3" x="11.8714" y="2.49833"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="U$1" value="SMD_TASTER_MID" dev="SMD_TASTER_MID">
+         <Position x="56.2801" y="60.4974" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="5.1688" h="3.1242"/>
+            <Pins>
+               <Pin id="1" x="0.5524" y="1.0033"/>
+               <Pin id="2" x="0.5524" y="2.5273"/>
+               <Pin id="3" x="4.6164" y="1.0033"/>
+               <Pin id="4" x="4.6164" y="2.5273"/>
+               <Pin id="5" x="2.5844" y="0.4953"/>
+            </Pins>
+         </Package>
+      </Part>
+      <Part id="U$3" value="TINY24_20M1" dev="TINY24_20M1">
+         <Position x="66.2559" y="52.0755" z="0"/>
+         <Package>
+            <Shape figure="rectangle" origin="left_bottom" b="9.82133" h="12.651"/>
+            <Pins>
+               <Pin id="P$1" x="5.953" y="11.603"/>
+               <Pin id="P$2" x="5.453" y="11.603"/>
+               <Pin id="P$3" x="4.953" y="11.603"/>
+               <Pin id="P$4" x="4.453" y="11.603"/>
+               <Pin id="P$5" x="3.953" y="11.603"/>
+               <Pin id="P$6" x="2.953" y="10.603"/>
+               <Pin id="P$7" x="2.953" y="10.103"/>
+               <Pin id="P$8" x="2.953" y="9.603"/>
+               <Pin id="P$9" x="2.953" y="9.103"/>
+               <Pin id="P$10" x="2.953" y="8.603"/>
+               <Pin id="P$11" x="3.953" y="7.603"/>
+               <Pin id="P$12" x="4.453" y="7.603"/>
+               <Pin id="P$13" x="4.953" y="7.603"/>
+               <Pin id="P$14" x="5.453" y="7.603"/>
+               <Pin id="P$15" x="5.953" y="7.603"/>
+               <Pin id="P$16" x="6.953" y="8.603"/>
+               <Pin id="P$17" x="6.953" y="9.103"/>
+               <Pin id="P$18" x="6.953" y="9.603"/>
+               <Pin id="P$19" x="6.953" y="10.103"/>
+               <Pin id="P$20" x="6.953" y="10.603"/>
+            </Pins>
+         </Package>
+      </Part>
+   </PartList>
+   <NetList>
+      <Net id="ANALOG_IN">
+         <Contact part="U$3" pin="P$4"/>
+         <Contact part="TEMP-SENSOR" pin="2"/>
+      </Net>
+      <Net id="GND">
+         <Contact part="-BATT" pin="1"/>
+         <Contact part="U$3" pin="P$8"/>
+         <Contact part="R1" pin="1"/>
+         <Contact part="U$3" pin="P$5"/>
+         <Contact part="C1" pin="2"/>
+      </Net>
+      <Net id="N$1">
+         <Contact part="R2" pin="2"/>
+         <Contact part="LED1_13" pin="C"/>
+      </Net>
+      <Net id="N$2">
+         <Contact part="R1" pin="2"/>
+         <Contact part="TEMP-SENSOR" pin="3"/>
+      </Net>
+	  <Net id="N$3">
+      </Net>
+      <Net id="N$4">
+         <Contact part="R3" pin="2"/>
+         <Contact part="LED1_9" pin="C"/>
+      </Net>
+      <Net id="N$5">
+         <Contact part="U$1" pin="2"/>
+         <Contact part="+BATT" pin="1"/>
+         <Contact part="U$1" pin="4"/>
+      </Net>
+      <Net id="N$6">
+         <Contact part="R4" pin="2"/>
+         <Contact part="LED1_14" pin="C"/>
+      </Net>
+      <Net id="N$7">
+         <Contact part="R7" pin="2"/>
+         <Contact part="LED1_12" pin="C"/>
+      </Net>
+      <Net id="N$8">
+         <Contact part="R8" pin="2"/>
+         <Contact part="LED1_10" pin="C"/>
+      </Net>
+      <Net id="N$9">
+         <Contact part="LED1_11" pin="C"/>
+         <Contact part="R9" pin="2"/>
+      </Net>
+      <Net id="N$10">
+         <Contact part="U$3" pin="P$11"/>
+         <Contact part="R4" pin="1"/>
+      </Net>
+      <Net id="N$14">
+         <Contact part="U$3" pin="P$2"/>
+         <Contact part="R8" pin="1"/>
+      </Net>
+      <Net id="N$17">
+         <Contact part="U$3" pin="P$15"/>
+         <Contact part="R7" pin="1"/>
+      </Net>
+      <Net id="N$23">
+         <Contact part="U$3" pin="P$12"/>
+         <Contact part="R3" pin="1"/>
+      </Net>
+      <Net id="N$24">
+         <Contact part="U$3" pin="P$14"/>
+         <Contact part="R2" pin="1"/>
+      </Net>
+      <Net id="N$27">
+         <Contact part="U$3" pin="P$3"/>
+         <Contact part="R9" pin="1"/>
+      </Net>
+      <Net id="N$36">
+         <Contact part="U$3" pin="P$13"/>
+         <Contact part="R10" pin="2"/>
+      </Net>
+      <Net id="VCC">
+         <Contact part="TEMP-SENSOR" pin="1"/>
+         <Contact part="U$3" pin="P$9"/>
+         <Contact part="C1" pin="1"/>
+         <Contact part="R10" pin="1"/>
+         <Contact part="LED1_13" pin="A"/>
+         <Contact part="LED1_9" pin="A"/>
+         <Contact part="LED1_14" pin="A"/>
+         <Contact part="LED1_12" pin="A"/>
+         <Contact part="LED1_10" pin="A"/>
+         <Contact part="LED1_11" pin="A"/>
+         <Contact part="U$1" pin="3"/>
+         <Contact part="U$1" pin="1"/>
+      </Net>
+   </NetList>
+</Circuit>

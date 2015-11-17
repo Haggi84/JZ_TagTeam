@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="OPTAVER_Inventor_ADDIN" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{32b8e711-661e-44f9-a066-ed1e5da7d1c9}" progid="OPTAVER_Inventor_ADDIN.StandardAddInServer" threadingModel="Both" name="OPTAVER_Inventor_ADDIN.OPTAVER_Inventor_ADDIN.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="OPTAVER_Inventor_ADDIN.dll" hashalg="SHA1"></file>
+
+</assembly>

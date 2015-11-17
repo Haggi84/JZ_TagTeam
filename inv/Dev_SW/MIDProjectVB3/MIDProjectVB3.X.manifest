@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="MIDProjectVB3" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{e4a46d1d-77db-4aa1-b097-6321b6783c26}" progid="MIDProjectVB3.StandardAddInServer" threadingModel="Both" name="MIDProjectVB3.MIDProjectVB3.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="MIDProjectVB3.dll" hashalg="SHA1"></file>
+
+</assembly>

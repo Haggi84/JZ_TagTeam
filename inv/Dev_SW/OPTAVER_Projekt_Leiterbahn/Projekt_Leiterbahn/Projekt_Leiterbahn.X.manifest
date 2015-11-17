@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="Projekt_Leiterbahn" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{f77778ce-e458-467a-b877-68fd73530401}" progid="Projekt_Leiterbahn.StandardAddInServer" threadingModel="Both" name="Projekt_Leiterbahn.Projekt_Leiterbahn.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="Projekt_Leiterbahn.dll" hashalg="SHA1"></file>
+
+</assembly>

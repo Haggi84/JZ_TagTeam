@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<KeepOuts project="MID-Auto_stp" denotation="MID-XML-BRepModel" cadSystem="Autodesk Inventor 2013" xmlns:xsi="http://www.w4.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:/Users">
+  <FaceKeepOuts>
+    <FaceKeepOut faceID="f113" Id="{75A470FF-B4D2-22D7-9B30-7391D91B5ADD}" routingAllowed="true" />
+  </FaceKeepOuts>
+</KeepOuts>

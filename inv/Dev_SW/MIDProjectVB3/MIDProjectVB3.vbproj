@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}</ProjectGuid>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/InventorAddIn/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>C:\Users\jozeitler\AppData\Roaming\Autodesk\Inventor 2015\Addins\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>MIDAddin</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autodesk.Inventor.interop, Version=18.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Autodesk.Inventor.Interop\v4.0_18.0.0.0__d84147f8b4276564\Autodesk.Inventor.interop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Inventor" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\ApplicationEvents.vb" />
+    <Compile Include="Application\Browser.vb" />
+    <Compile Include="Application\UserInputEvents.vb" />
+    <Compile Include="Application\MidDocumentEvents.vb" />
+    <Compile Include="Application\UserInterfaceEvents.vb" />
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Call Database\CallDatabaseCommand.vb" />
+    <Compile Include="Call Database\CallDatabaseRequest.vb" />
+    <Compile Include="Commands\ChangeProcessor.vb" />
+    <Compile Include="Commands\ChangeRequest.vb" />
+    <Compile Include="Application\Commands.vb" />
+    <Compile Include="ExportToRaytrace\ExportToRaytraceCommand.vb" />
+    <Compile Include="ExportToRaytrace\ExportToRaytraceRequest.vb" />
+    <Compile Include="Helper\PictureConverter.vb" />
+    <Compile Include="Helper\Triad.vb" />
+    <Compile Include="KeepOuts\ReadKeepOutsCmd.vb" />
+    <Compile Include="KeepOuts\ReadKeepOutsRequest.vb" />
+    <Compile Include="KeepOuts\ReadKeepOutsCmdDlg.Designer.vb">
+      <DependentUpon>ReadKeepOutsCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KeepOuts\ReadKeepOutsCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpticalWaveguide\OpticalWaveguideRequest.vb" />
+    <Compile Include="OpticalWaveguide\OpticalWaveguideCommand.vb" />
+    <Compile Include="Load Project\LoadProjectCmd.vb" />
+    <Compile Include="Load Project\LoadProjectCmdDlg.Designer.vb">
+      <DependentUpon>LoadProjectCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load Project\LoadProjectCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load Project\LoadProjectRequest.vb" />
+    <Compile Include="MidDataTypes\MidData.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Read Netlist\ReadNetlistRequest.vb" />
+    <Compile Include="MidDataTypes\CircuitBoard.vb" />
+    <Compile Include="MidDataTypes\NetContact.vb" />
+    <Compile Include="MidDataTypes\CircuitNet.vb" />
+    <Compile Include="MidDataTypes\CircuitPart.vb" />
+    <Compile Include="MidDataTypes\CircuitPin.vb" />
+    <Compile Include="MidDataTypes\KeepOut.vb" />
+    <Compile Include="KeepOuts\KeepOutRequest.vb" />
+    <Compile Include="MidDataTypes\KeepOuts.vb" />
+    <Compile Include="Rotate Mid\RotateMidRequest.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Place Mid\PlaceMidCmdDlg.Designer.vb">
+      <DependentUpon>PlaceMidCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Place Mid\PlaceMidCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidDataTypes\CircuitCarrier.vb" />
+    <Compile Include="New Project\NewProjectCmdDlg.Designer.vb">
+      <DependentUpon>NewProjectCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New Project\NewProjectCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Project\NewProjectRequest.vb" />
+    <Compile Include="ExportBRep\BRepExport.vb" />
+    <Compile Include="Read Netlist\ReadNetlistCmdDlg.Designer.vb">
+      <DependentUpon>ReadNetlistCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Read Netlist\ReadNetlistCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeepOuts\KeepOutCmdDlg.Designer.vb">
+      <DependentUpon>KeepOutCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KeepOuts\KeepOutCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Project\NewProjectCommad.vb" />
+    <Compile Include="Place Mid\PlaceMidCommand.vb" />
+    <Compile Include="KeepOuts\KeepOutCommand.vb" />
+    <Compile Include="Read Netlist\ReadNetlistCommand.vb" />
+    <Compile Include="Rotate Mid\RotateMidCommand.vb" />
+    <Compile Include="Commands\Command.vb" />
+    <Compile Include="Commands\Interaction.vb" />
+    <Compile Include="Place Mid\PlaceMidRequest.vb" />
+    <Compile Include="Place Parts\PlacePartCmdDlg.Designer.vb">
+      <DependentUpon>PlacePartCmdDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Place Parts\PlacePartCmdDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Place Parts\PlacePartCommand.vb" />
+    <Compile Include="Place Parts\PlacePartRequest.vb" />
+    <Compile Include="Application\MidAddInServer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MIDProjectVB3.X.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Autodesk.MIDProjectVB3.Inventor.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="KeepOuts\ReadKeepOutsCmdDlg.resx">
+      <DependentUpon>ReadKeepOutsCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load Project\LoadProjectCmdDlg.resx">
+      <DependentUpon>LoadProjectCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Project\NewProjectCmdDlg.resx">
+      <DependentUpon>NewProjectCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Place Mid\PlaceMidCmdDlg.resx">
+      <DependentUpon>PlaceMidCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Read Netlist\ReadNetlistCmdDlg.resx">
+      <DependentUpon>ReadNetlistCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeepOuts\KeepOutCmdDlg.resx">
+      <DependentUpon>KeepOutCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Place Parts\PlacePartCmdDlg.resx">
+      <DependentUpon>PlacePartCmdDlg.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyLargeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MySmallImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbAddLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbAddSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbExitLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbExitSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbExitSmall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbAddSmall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mtbRmvSmall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RmvButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonImportLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonImportSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonExportLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonExportSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnvButtonLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnvButtonSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonPlaceButtonLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonPlaceButtonSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\App.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonESettingsButtonLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RibbonESettingsButtonSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonDownLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonDownSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonLeftLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonLeftSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonRightLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonRightSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonUpLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonUpSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbOkButtonSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonRotateLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MtbButtonRotateRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fpslogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fpslogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovePartButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewProjectButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlacePartButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlaceMidButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReadButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeepOutsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raytrace.png" />
+    <None Include="Resources\RAYTRACE.ico" />
+    <None Include="Resources\Logo_Optaver_klein.bmp" />
+    <None Include="Resources\Logo.bmp" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\Logo_minimiert.png" />
+    <None Include="Resources\ContextCenter.ico" />
+    <None Include="Resources\Interconnect.ico" />
+    <None Include="Resources\ContextCenter.png" />
+    <None Include="Resources\Interconnect.png" />
+    <Content Include="Resources\MoveMidButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OPTAVER_Projekt_Leiterbahn\Projekt_Leiterbahn\OPTAVER_Projekt_Leiterbahn_VB.vbproj">
+      <Project>{5284e3b4-0930-4164-8351-6cec3cf1183d}</Project>
+      <Name>OPTAVER_Projekt_Leiterbahn_VB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>call "%25VS110COMNTOOLS%25vsvars32"
+			mt.exe -manifest "$(ProjectDir)MIDProjectVB3.X.manifest" -outputresource:"$(Targetpath)";#2</PostBuildEvent>
+  </PropertyGroup>
+</Project>

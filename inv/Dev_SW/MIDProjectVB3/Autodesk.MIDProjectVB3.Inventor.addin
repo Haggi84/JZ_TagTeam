@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 18.0-->
+  <ClassId>{e4a46d1d-77db-4aa1-b097-6321b6783c26}</ClassId>
+  <ClientId>{e4a46d1d-77db-4aa1-b097-6321b6783c26}</ClientId>
+  <DisplayName>MIDProjectVB3</DisplayName>
+  <Description>MIDProjectVB3</Description>
+  <Assembly>MIDProjectVB3.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>17..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

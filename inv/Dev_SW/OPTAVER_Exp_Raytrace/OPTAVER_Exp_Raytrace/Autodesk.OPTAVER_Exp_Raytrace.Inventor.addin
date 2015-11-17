@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 19.0-->
+  <ClassId>{725953bc-ade5-4eb1-9d2b-9fabf52bfc10}</ClassId>
+  <ClientId>{725953bc-ade5-4eb1-9d2b-9fabf52bfc10}</ClientId>
+  <DisplayName>OPTAVER_Exp_Raytrace</DisplayName>
+  <Description>OPTAVER_Exp_Raytrace</Description>
+  <Assembly>OPTAVER_Exp_Raytrace.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>18..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 17.0-->
+  <ClassId>{37caa6ae-9257-4385-bafc-ef63a7ce59cc}</ClassId>
+  <ClientId>{37caa6ae-9257-4385-bafc-ef63a7ce59cc}</ClientId>
+  <DisplayName>PM_Layout</DisplayName>
+  <Description>PM_Layout</Description>
+  <Assembly>PM_Layout.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>16..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

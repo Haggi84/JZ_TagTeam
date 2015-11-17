@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OPTAVER_Inventor_ADDIN.Start</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Console</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{760DCB7E-0930-413A-B498-8DC6E29C5FE6}</ProjectGuid>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/InventorAddIn/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>OPTAVER_Inventor_ADDIN</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="autodesk.inventor.interop, Version=19.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Autodesk.Inventor.Interop\v4.0_19.0.0.0__d84147f8b4276564\autodesk.inventor.interop.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frm_option_select_profile.Designer.vb">
+      <DependentUpon>frm_option_select_profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_option_select_profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InawSplashWindow.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReadBRepFromCADAI\read_brep_from_cad_ai.vb" />
+    <Compile Include="Standard_Files\AssemblyInfo.vb" />
+    <Compile Include="Tool\Ax.vb" />
+    <Compile Include="Tool\Ax_Inventor.vb" />
+    <Compile Include="Tool\BRepVoc.vb" />
+    <Compile Include="Tool\CI.vb" />
+    <Compile Include="Tool\CodeFile1.vb" />
+    <Compile Include="Tool\CodeFile2.vb" />
+    <Compile Include="Tool\Files.vb" />
+    <Compile Include="Forms\frm_main.Designer.vb">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_read_brep_from_cad_ai.Designer.vb">
+      <DependentUpon>frm_read_brep_from_cad_ai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_read_brep_from_cad_ai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tool\GlobVar.vb" />
+    <Compile Include="Tool\GlobVar_Inventor.vb" />
+    <Compile Include="Tool\KeyMan.vb" />
+    <Compile Include="Tool\Msg.vb" />
+    <Compile Include="Start.vb" />
+    <Compile Include="Standard_Files\StandardAddInServer.vb" />
+    <Compile Include="Tool\Statistics.vb" />
+    <Compile Include="Tool\trans_edge.vb" />
+    <Compile Include="Tool\trans_face.vb" />
+    <Compile Include="Tool\trans_vertex.vb" />
+    <Compile Include="Transfer_Profile\inv_create_profile.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OPTAVER_Inventor_ADDIN.X.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Autodesk.OPTAVER_Inventor_ADDIN.Inventor.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OPTAVER_Projekt_Leiterbahn_VB.vbproj" />
+    <Content Include="Tool\Resources\green_arrow_right.png" />
+    <Content Include="Tool\Resources\Profiles_LB\LB_profile_custom.PNG" />
+    <Content Include="Tool\Resources\Profiles_LB\LB_profile_glass_curve.PNG" />
+    <Content Include="Tool\Resources\Profiles_LB\LB_profile_PC_curve.PNG" />
+    <Content Include="Tool\Resources\Profiles_LB\LB_profile_PI_curve.PNG" />
+    <Content Include="Tool\Resources\Logo.png" />
+    <Content Include="Tool\Resources\Mantel_Kern.png" />
+    <Content Include="Tool\Resources\Overview.png" />
+    <EmbeddedResource Include="Tool\Resources\Splash.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\OPTAVER_GraphPlotter\GraphPlotter\OPTAVER_GraphPlotter_CS.csproj">
+      <Project>{4C7CCF2B-A3AF-4035-88FA-2E449321BC81}</Project>
+      <Name>OPTAVER_GraphPlotter_CS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OPTAVER_Projekt_Leiterbahn\Projekt_Leiterbahn\OPTAVER_Projekt_Leiterbahn_VB.vbproj">
+      <Project>{5284E3B4-0930-4164-8351-6CEC3CF1183D}</Project>
+      <Name>OPTAVER_Projekt_Leiterbahn_VB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_option_select_profile.resx">
+      <DependentUpon>frm_option_select_profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_read_brep_from_cad_ai.resx">
+      <DependentUpon>frm_read_brep_from_cad_ai.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>call "%25VS100COMNTOOLS%25vsvars32"
+			mt.exe -manifest "$(ProjectDir)OPTAVER_Inventor_ADDIN.X.manifest" -outputresource:"$(TargetPath)";#2</PostBuildEvent>
+  </PropertyGroup>
+</Project>

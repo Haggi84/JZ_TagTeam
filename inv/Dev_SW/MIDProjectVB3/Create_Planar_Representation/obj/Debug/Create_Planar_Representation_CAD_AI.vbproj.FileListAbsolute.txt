@@ -1,0 +1,10 @@
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\bin\Debug\Create_Planar_Representation_CAD_AI.pdb
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\bin\Debug\.xml
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\obj\Debug\Create_Planar_Representation_CAD_AI.vbprojResolveAssemblyReference.cache
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\obj\Debug\.xml
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\obj\Debug\Create_Planar_Representation_CAD_AI.pdb
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\bin\Debug\Create_Planar_Representation_CAD_AI.exe
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\InventorAddIn1\InventorAddIn1\obj\Debug\Create_Planar_Representation_CAD_AI.exe
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\Create_Planar_Representation\Create_Planar_Representation\obj\Debug\Create_Planar_Representation_CAD_AI.exe
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\Create_Planar_Representation\Create_Planar_Representation\obj\Debug\.xml
+D:\Projekte\Projekt MID-Layout\Programmierung\VBNET\Test\Create_Planar_Representation\Create_Planar_Representation\obj\Debug\Create_Planar_Representation_CAD_AI.pdb

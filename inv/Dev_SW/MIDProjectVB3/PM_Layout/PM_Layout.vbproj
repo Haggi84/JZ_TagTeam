@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{E26F0313-4E2D-4333-A611-EF76307F00C6}</ProjectGuid>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/InventorAddIn/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DefineConstants>_useInventor=True</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>PM_Layout</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="Autodesk.Inventor.Interop, Version=16.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Xml.XPath" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Forms\dlgStartReadCircuitFromFile.Designer.vb">
+      <DependentUpon>dlgStartReadCircuitFromFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlgStartReadCircuitFromFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_global_routing_plan.Designer.vb">
+      <DependentUpon>dlg_global_routing_plan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_global_routing_plan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_map_routing.Designer.vb">
+      <DependentUpon>dlg_map_routing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_map_routing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_planarisation_of_brep.Designer.vb">
+      <DependentUpon>dlg_planarisation_of_brep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_planarisation_of_brep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_planarisation_of_routing_task.Designer.vb">
+      <DependentUpon>dlg_planarisation_of_routing_task.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_planarisation_of_routing_task.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_read_brep_from_cad_ai.Designer.vb">
+      <DependentUpon>dlg_read_brep_from_cad_ai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_read_brep_from_cad_ai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_read_brep_from_file.Designer.vb">
+      <DependentUpon>dlg_read_brep_from_file.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_read_brep_from_file.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_read_routing_task_from_file.Designer.vb">
+      <DependentUpon>dlg_read_routing_task_from_file.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_read_routing_task_from_file.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_show_3D_routing_result_in_inventor.Designer.vb">
+      <DependentUpon>dlg_show_3D_routing_result_in_inventor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_show_3D_routing_result_in_inventor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_show_planar_brep_in_inventor.Designer.vb">
+      <DependentUpon>dlg_show_planar_brep_in_inventor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_show_planar_brep_in_inventor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_show_routing_result_in_inventor.Designer.vb">
+      <DependentUpon>dlg_show_routing_result_in_inventor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_show_routing_result_in_inventor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_start_pm_layout.Designer.vb">
+      <DependentUpon>dlg_start_pm_layout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_start_pm_layout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dlg_show_planar_routing_result_in_inventor.Designer.vb">
+      <DependentUpon>dlg_show_planar_routing_result_in_inventor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dlg_show_planar_routing_result_in_inventor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_PM_Layout.vb" />
+    <Compile Include="MapPlanarRoutingResultTo3D\map_routing_to_3D.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReadBRepFromCadAI\read_brep_from_cad_ai.vb" />
+    <Compile Include="ReadBRepFromFile\read_brep_from_file.vb" />
+    <Compile Include="ReadCircuitFromFile\ReadCircuitFromFile.vb" />
+    <Compile Include="ReadRoutingTaskFromFile\read_routing_task_from_file.vb" />
+    <Compile Include="Tools\Ax_Inventor.vb" />
+    <Compile Include="Tools\GlobVar_Inventor.vb" />
+    <Compile Include="Write3DRoutingResultToInventor\3D_Routing_Result_XML_Reader.vb" />
+    <Compile Include="Write3DRoutingResultToInventor\Sketch_3D_Geometries.vb" />
+    <Compile Include="Write3DRoutingResultToInventor\Write3DRoutingResultToInventor.vb" />
+    <Compile Include="WritePlanarBRepToCadAI\Sketch_Geometry.vb" />
+    <Compile Include="WritePlanarBRepToCadAI\write_planar_brep_to_cad_ai.vb" />
+    <Compile Include="StandardAddInServer.vb" />
+    <Compile Include="Tools\Ax.vb" />
+    <Compile Include="Tools\BRepVoc.vb" />
+    <Compile Include="Tools\CI.vb" />
+    <Compile Include="Tools\CodeFile1.vb" />
+    <Compile Include="Tools\CodeFile2.vb" />
+    <Compile Include="Tools\Files.vb" />
+    <Compile Include="Tools\GlobVar.vb" />
+    <Compile Include="Tools\KeyMan.vb" />
+    <Compile Include="Tools\Msg.vb" />
+    <Compile Include="Tools\Statistics.vb" />
+    <Compile Include="Tools\trans_edge.vb" />
+    <Compile Include="Tools\trans_face.vb" />
+    <Compile Include="Tools\trans_vertex.vb" />
+    <Compile Include="WritePlanarBRepToCadAI\PBRep_XML_Reader.vb" />
+    <Compile Include="WritePlanarRoutingResultToInventor\Planar_Routing_Result_XML_Reader.vb" />
+    <Compile Include="WritePlanarRoutingResultToInventor\WritePlanarRoutingResultToInventor.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PM_Layout.X.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Autodesk.PM_Layout.Inventor.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\MID-Layout-Logo_3_115eck.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\dlgStartReadCircuitFromFile.resx">
+      <DependentUpon>dlgStartReadCircuitFromFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_global_routing_plan.resx">
+      <DependentUpon>dlg_global_routing_plan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_map_routing.resx">
+      <DependentUpon>dlg_map_routing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_planarisation_of_brep.resx">
+      <DependentUpon>dlg_planarisation_of_brep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_planarisation_of_routing_task.resx">
+      <DependentUpon>dlg_planarisation_of_routing_task.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_read_brep_from_cad_ai.resx">
+      <DependentUpon>dlg_read_brep_from_cad_ai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_read_brep_from_file.resx">
+      <DependentUpon>dlg_read_brep_from_file.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_read_routing_task_from_file.resx">
+      <DependentUpon>dlg_read_routing_task_from_file.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_show_3D_routing_result_in_inventor.resx">
+      <DependentUpon>dlg_show_3D_routing_result_in_inventor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_show_planar_brep_in_inventor.resx">
+      <DependentUpon>dlg_show_planar_brep_in_inventor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_show_planar_routing_result_in_inventor.resx">
+      <DependentUpon>dlg_show_planar_routing_result_in_inventor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_show_routing_result_in_inventor.resx">
+      <DependentUpon>dlg_show_routing_result_in_inventor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dlg_start_pm_layout.resx">
+      <DependentUpon>dlg_start_pm_layout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>call "%25VS100COMNTOOLS%25vsvars32"
+			mt.exe -manifest "$(ProjectDir)PM_Layout.X.manifest" -outputresource:"$(TargetPath)";#2</PostBuildEvent>
+  </PropertyGroup>
+</Project>

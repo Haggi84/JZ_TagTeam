@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 19.0-->
+  <ClassId>{32b8e711-661e-44f9-a066-ed1e5da7d1c9}</ClassId>
+  <ClientId>{32b8e711-661e-44f9-a066-ed1e5da7d1c9}</ClientId>
+  <DisplayName>OPTAVER_Inventor_ADDIN</DisplayName>
+  <Description>OPTAVER_Inventor_ADDIN</Description>
+  <Assembly>OPTAVER_Inventor_ADDIN.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>18..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

@@ -1,0 +1,12 @@
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.frm_table.resources
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.frm_Value.resources
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.Main.resources
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.Graph.resources
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.Properties.Resources.resources
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\OPTAVER_GraphPlotter_CS.csproj.GenerateResource.Cache
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.exe
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.pdb
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\bin\Debug\GraphPlotter.exe.config
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\bin\Debug\GraphPlotter.exe
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\bin\Debug\GraphPlotter.pdb
+D:\Projekte\Projekt Optaver\Optaver_SVN\Projektorganisation\Teilprojekt_6_Design\Software\OPTAVER_Dev\Dev_SW\OPTAVER_GraphPlotter\GraphPlotter\obj\Debug\OPTAVER_GraphPlotter_CS.csprojResolveAssemblyReference.cache

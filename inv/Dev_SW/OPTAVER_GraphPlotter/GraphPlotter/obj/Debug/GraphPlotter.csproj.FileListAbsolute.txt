@@ -1,0 +1,11 @@
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\bin\Debug\GraphPlotter.exe
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\bin\Debug\GraphPlotter.pdb
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.csprojResolveAssemblyReference.cache
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.Main.resources
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.Graph.resources
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.Properties.Resources.resources
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.csproj.GenerateResource.Cache
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.exe
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.pdb
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.frm_Value.resources
+D:\Projekte\Projekt Optaver\Software\Konzeptprojekte\GraphPlotter\GraphPlotter\obj\Debug\GraphPlotter.frm_table.resources
